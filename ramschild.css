@@ -45,10 +45,10 @@ Get rid of big top margin above post img
 }
 
 /*Invisible theme author credit*/
-.credits a {
+.credits {
 color: #fff !important;
+display: none;
 }
-
 /*classy sidebar*/
 .main-menu a {
     	color: #686868 !important;
