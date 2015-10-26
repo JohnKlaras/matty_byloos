@@ -4,7 +4,7 @@
 
 ##### _Portfolio website, Matty Byloos 10-26-2015_
 
-#### By _**Child Theme by John R. Klaras, Original Rams Theme by Anders Norén**_
+#### _**Child Theme by John R. Klaras, Original Theme Rams by Anders Norén**_
 
 ## Description
 
