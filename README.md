@@ -12,7 +12,7 @@ _This is a portfolio website for for Portland-based painter and author Matty Byl
 
 ## Setup
 
-If you'd like to take a look at Visit Matty Byloos' website at http://www.mattybyloos.com/, or just [click here](http://example.net/). 
+If you'd like to take a look at Visit Matty Byloos' website, go to http://www.mattybyloos.com/.
 
 
 
