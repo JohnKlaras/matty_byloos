@@ -1,4 +1,4 @@
-//*
+/*
 Theme Name: Rams Child
 Template: rams
 Author: Child Theme Configurator
@@ -22,6 +22,29 @@ body {
     text-align: left;
 }
 
+
+/****************
+Change Fontzzzz
+*****************/
+body {
+font-family: Helvetica, sans-serif, Verdana;
+}
+.post-content {
+font-family: Helvetica, sans-serif, Verdana;
+font-size: .85em;
+}
+
+
+/****************
+Fix Headings
+*****************/
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+font-family: Helvetica, sans-serif, Verdana;
+color: #000;
+font-size: 1.1rem;
+}
+
+
 /****************
 Override Inline Styles for White Hover
 *****************/
@@ -41,28 +64,35 @@ color: #ccc !important
 Get rid of big top margin above post img
 **********************/
 .wrapper {
-    margin: 0% !important;
+    margin-top: 0% !important;
 }
 
-/*Invisible theme author credit*/
+/*********************
+remove original theme author credit
+**********************/
 .credits {
 color: #fff !important;
 display: none;
 }
+
 /*classy sidebar*/
 .main-menu a {
     	color: #686868 !important;
 	font-weight: normal;
 	font-size: 1rem;
+	margin-top: -6px;
 }
 .sidebar {
     background-color: #fff;
 }
 
+
+
 /*put sidebar list items closer together*/
 .main-menu li {
 	margin-top: 8px;
 }
+
 
 .main-menu a:hover, .main-menu .current_menu_item > a, .main-menu .current_page_item > a {
     color: #000 !important;
@@ -70,38 +100,42 @@ display: none;
 
 
 
-/*homepage link name always black*/
+/*Matty Byloos title link styling*/
 #menu-item-182 a {
-color: #000 !important;
-font-weight: bold;
-font-size: 1.5rem;
+    color: #000 !important;
+    font-weight: bold;
+    font-size: 1.9rem;
+    white-space: nowrap;
+    transform: scaleY(1.4);
+    padding-top: 17px;
 }
 /*news category in menu always black*/
 #menu-item-210 a {
 color: #000 !important;
 font-weight: bold;
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 /*works category in menu always black*/
 #menu-item-186 a {
 color: #000 !important;
 font-weight: bold;
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 /*info category in menu always black*/
 #menu-item-199 a {
 color: #000 !important;
 font-weight: bold;
 font-size: 1rem;
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 
 /* Smaller dates/post titles */
-h1.post-title {
-font-size: 1.7rem;
+.post-title {
+font-size: 1.5rem;
+text-transform: uppercase;
 }
 /****************
 Mobile Menu Styling
@@ -135,7 +169,7 @@ Big Images for Big Screens
 
 @media (min-width: 931px){
 .sidebar {
-padding: 0% 25px;
+padding: 10px 25px;
 }
 
 @media (min-width: 1101px){
@@ -153,7 +187,7 @@ padding: 0% 25px;
 
 @media (min-width: 1401px){
 .post-inner {
-
+    	
    	 margin-left: -15vw;
    	 width: 60vw;
 	}
@@ -161,7 +195,7 @@ padding: 0% 25px;
 }
 @media (min-width: 2001px){
 .post-inner {
-
+    	
    	 margin-left: -22vw;
    	 width: 60vw;
 	}
