@@ -37,6 +37,12 @@ color: #333 !important;
 body a: hover {
 color: #ccc !important
 }
+/*********************
+Get rid of big top margin above post img
+**********************/
+.wrapper {
+    margin: 0% !important;
+}
 
 /*Invisible theme author credit*/
 .credits a {
@@ -61,6 +67,8 @@ color: #fff !important;
 .main-menu a:hover, .main-menu .current_menu_item > a, .main-menu .current_page_item > a {
     color: #000 !important;
 }
+
+
 
 /*homepage link name always black*/
 #menu-item-182 a {
