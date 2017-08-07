@@ -1,4 +1,4 @@
-![Matty Byloos Website Screenshot](/img/MB SITE.png?raw=true]
+![Matty Byloos Website Screenshot](/img/MB SITE.png?raw=true)
 
 # _Website for Painter Matty Byloos_
 
